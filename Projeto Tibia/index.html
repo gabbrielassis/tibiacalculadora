@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Tibiana</title>
+</head>
+  <body>
+      <div id="container" class="container">
+        <div id="content" class="content">
+
+          <h1 id="title" class="title">Calculadora de Morte</h1> 
+          <form id="calculatorForm"> 
+            <label class="normal-text" for="levelInput">Level: </label>  
+            <input 
+              id="levelInput" 
+              name="levelInput" 
+              type="number"               
+              maxlength="4" 
+            />
+            <p>
+            <label class="normal-text" for="promotionInput">Promotion:</label>  
+            <input               
+              id="promotionInput"
+              name="promotionInput"  
+              type="checkbox" 
+              name="promote" 
+              id="1" 
+              checked
+            >
+            <p>
+            <input 
+              type="submit" 
+              id="send" 
+              value="Calcular"
+            >
+          </form>           
+      </div>
+
+      <div class="container, content">
+            <div>
+            <strong class="strong-all">All</strong> 
+            <span>blessings experience loss.</span> 
+            <strong>(7)</strong> 
+            <br>
+            <span id="allBlessingsResult"></span>
+          </div>
+          
+          <div>
+            <strong>HARDCORE</strong> 
+            <strong class="strong-all">All</strong> 
+            <span>blessings experience loss.</span> 
+            <strong>(7)</strong> 
+            <br>
+            <span id="hcAllBlessingsResult"></span>
+          </div>
+
+          <div>
+            <strong class="strong-no">No</strong> 
+            <span>blessings experience loss.</span> 
+            <strong>(0)</strong> 
+            <br>
+            <span id="noBlessingsResult"></span>
+          </div>
+
+          <div>
+            <strong>HARDCORE</strong> 
+            <strong class="strong-no">No</strong> 
+            <span>blessings experience loss.</span> 
+            <strong>(0)</strong> 
+            <br>
+            <span id="hcNoBlessingsResult"></span>
+          </div>
+          
+        </div>
+      <div>
+
+        <script src="index.js" defer> </script>
+  </body>
+</html>
